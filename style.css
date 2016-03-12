@@ -1,0 +1,77 @@
+body {
+    width: 100%;
+    font: 14px "Helvetica Neue",Arial,Helvetica,sans-serif;
+    margin: 10 auto;
+    background-color: lightskyblue;
+}
+
+.row {
+    width: 100%;
+    background-color: deepskyblue;
+}
+
+
+
+.main {
+    border-radius: 5px;
+}
+
+.form-inline {
+    padding: 10px;
+}
+
+.board {
+    background-color: #EEEEEE;
+    width: 30%;
+    margin: 10px;
+    float: left;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap;
+    border-radius: 5px;
+
+}
+
+.board > p {
+        text-align: center;
+}
+
+.card {
+    background-color: white;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 5px;
+    padding: 4px;
+    z-index: 1;
+    min-height: 0;
+    border-radius: 5px;
+
+}
+
+.tag {
+    background-color: #99FF99;
+    display: block;
+    margin: 1px;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 12px;
+
+}
+
+.content {
+    clear: both;
+    display: block;
+    font-weight: 400;
+    margin: 0 0 4px;
+    overflow: hidden;
+    text-decoration: none;
+    word-wrap: break-word;
+    font-size: 16px;
+}
