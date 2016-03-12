@@ -134,7 +134,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
                     <?php echo h($task['tag']) ?>
                   </div>
                   <div class="content">
-                    <a href="notyet.php?id=<?php echo $task['id'] ?>" class="btn-xs btn-primary">戻す</a>
+                    <a href="notyet.php?id=<?php echo $task['id'] ?>" class="btn-xs btn-default">戻す</a>
                     <a href="delete.php?id=<?php echo $task['id'] ?>" class="btn-xs btn-warning">ゴミ箱</a>
                     <?php echo h($task['title']) ?>
                 <?php endif; ?>
@@ -153,7 +153,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
                   </div>
                   <div class="content">
                     <a href="notyet.php?id=<?php echo $task['id'] ?>" class="btn-xs btn-primary">戻す</a>
-                    <a href="delete.php?id=<?php echo $task['id'] ?>&flag=<?php echo $task['flag'] = 'delete' ?>" class="btn-xs btn-warning">ゴミ箱</a>
+                    <a href="delete.php?id=<?php echo $task['id'] ?>&flag=<?php echo $task['flag'] = 'delete' ?>" class="btn-xs btn-danger">削除</a>
                     <?php echo h($task['title']) ?>
                   <?php endif; ?>
                 <?php endforeach; ?>
